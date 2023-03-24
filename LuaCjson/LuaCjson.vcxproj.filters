@@ -14,4 +14,23 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fpconv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="strbuf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fpconv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lua_cjson.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="strbuf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
